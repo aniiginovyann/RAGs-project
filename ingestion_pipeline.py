@@ -77,10 +77,9 @@ def create_vector_store(chunks, persist_directory="db/chroma_db"):
     return vectorstore
 
 def main():
-    print("Main function")  
-
-if __name__ == "__main__":
-    main()
     documents = load_documents(docs_path="Docs")
     chunks = split_documents(documents)
     vectorstore = create_vector_store(chunks)
+
+if __name__ == "__main__":
+    main()
