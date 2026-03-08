@@ -1,5 +1,5 @@
 import os
-from langchain_community.document_loaders import TextLoader, DirectoryLoader, PyPDFLoader
+from langchain_community.document_loaders import DirectoryLoader, PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
@@ -34,14 +34,7 @@ def load_documents(docs_path="Docs"):
         loader_cls=PyPDFLoader
     )
 
-    txt_loader = DirectoryLoader(
-        docs_path,
-        glob="*.txt",
-        loader_cls=TextLoader
-    )
-
     documents = []
-    documents.extend(pdf_loader.load())
     documents.extend(txt_loader.load())
 
 
