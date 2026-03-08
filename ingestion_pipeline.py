@@ -79,7 +79,7 @@ def main():
     chunks = split_documents(documents)
     vectorstore = create_vector_store(chunks)
 
-    query = "Ի՞նչ պատիժ է նախատեսվում մարդ սպանելու համար։"
+    query = input("Մուտքագրեք ձեր հարցը ՀՀ օրենսդրության վերաբերյալ: ")
     docs = vectorstore.similarity_search(query, k=5)
     for doc in docs:
         print(doc.page_content)
