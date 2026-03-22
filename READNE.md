@@ -56,9 +56,10 @@ Type exit to quit
 ## 🗂️ Project Structure
 
 rag-project/
+
 ├─ Docs/   
 ├─ generate_embeddings.py
-├─ query_rag.py          
+├─ query_rag.py    
 ├─ embeddings.pkl       
 ├─ requirements.txt    
 ├─ .env                  
