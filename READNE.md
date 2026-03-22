@@ -56,11 +56,11 @@ Type exit to quit
 ## 🗂️ Project Structure
 
 rag-project/
-├─ Docs/                  # PDF documents
-├─ generate_embeddings.py # Load, chunk, and create embeddings
-├─ query_rag.py           # Query RAG system and get GPT responses
-├─ embeddings.pkl         # Saved embeddings (generated after first run)
-├─ requirements.txt       # Dependencies
-├─ .env                   # Environment variables
-└─ README.md              # Project documentation
-└─ README.md              # Project documentation
+├─ Docs/   
+├─ generate_embeddings.py
+├─ query_rag.py          
+├─ embeddings.pkl       
+├─ requirements.txt    
+├─ .env                  
+└─ README.md            
+└─ README.md             
