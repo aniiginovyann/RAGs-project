@@ -52,7 +52,9 @@ Retrieves the most relevant chunks
 GPT-5.2 generates an answer based on context
 Type exit to quit
 
-🗂️ Project Structure
+
+## 🗂️ Project Structure
+
 rag-project/
 ├─ Docs/                  # PDF documents
 ├─ generate_embeddings.py # Load, chunk, and create embeddings
