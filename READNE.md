@@ -37,7 +37,7 @@ pip install -r requirements.txt
 Create a .env file with your OpenAI API key:
 OPENAI_API_KEY=your_openai_api_key_here
 
-🚀 Usage
+## 🚀 Usage
 Step 1: Generate embeddings
 python generate_embeddings.py
 
