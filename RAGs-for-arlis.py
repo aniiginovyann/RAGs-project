@@ -43,7 +43,7 @@ def load_documents(docs_path="Docs"):
     
     return documents
     
-def split_documents(documents, chunk_size=3000, chunk_overlap=200):
+def split_documents(documents, chunk_size=3000, chunk_overlap=300):
     logger.info("Splitting documents into chunks...")
 
     text_splitter = RecursiveCharacterTextSplitter(
