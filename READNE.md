@@ -63,3 +63,4 @@ rag-project/
 ├─ requirements.txt       # Dependencies
 ├─ .env                   # Environment variables
 └─ README.md              # Project documentation
+└─ README.md              # Project documentation
